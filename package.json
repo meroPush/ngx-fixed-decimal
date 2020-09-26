@@ -9,6 +9,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:lib": "ng build ngx-fixed-decimal --watch",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint"

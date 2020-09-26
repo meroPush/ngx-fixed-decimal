@@ -1,12 +1,13 @@
-import { NgModule } from '@angular/core';
-import { NgxFixedDecimalComponent } from './ngx-fixed-decimal.component';
-
-
+import {NgModule} from '@angular/core';
+import {NgxFixedDecimalPipe} from './ngx-fixed-decimal.pipe';
 
 @NgModule({
-  declarations: [NgxFixedDecimalComponent],
-  imports: [
+  declarations: [
+    NgxFixedDecimalPipe
   ],
-  exports: [NgxFixedDecimalComponent]
+  imports: [],
+  exports: [
+    NgxFixedDecimalPipe
+  ]
 })
-export class NgxFixedDecimalModule { }
+export class NgxFixedDecimalModule {}
