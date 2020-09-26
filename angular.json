@@ -40,8 +40,16 @@
               "**/node_modules/**"
             ]
           }
+        },
+        "deploy": {
+          "builder": "ngx-deploy-npm:deploy",
+          "options": {
+            "access": "public",
+            "configuration": "production"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "ngx-fixed-decimal"
 }
