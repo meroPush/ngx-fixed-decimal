@@ -1,9 +1,32 @@
 {
   "name": "ngx-fixed-decimal",
   "version": "0.0.1",
+  "author": {
+    "name": "Sergey Push",
+    "email": "mero.push@gmail.com"
+  },
+  "description": "Angular pipe for round a number to N decimal places",
+  "keywords": [
+    "rounding",
+    "decimal",
+    "numbers",
+    "format",
+    "angular",
+    "pipe",
+    "ngx",
+    "ng",
+    "math",
+    "floor",
+    "ceil",
+    "round",
+    "trunc"
+  ],
+  "homepage": "https://github.com/meroPush/ngx-fixed-decimal#readme",
+  "bugs": "https://github.com/meroPush/ngx-fixed-decimal/issues",
+  "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "^10.1.3",
-    "@angular/core": "^10.1.3"
+    "@angular/common": "^8.0.0 || ^9.0.0 || ^10.0.0",
+    "@angular/core": "^8.0.0 || ^9.0.0 || ^10.0.0"
   },
   "dependencies": {
     "tslib": "^2.0.0"
